@@ -100,8 +100,11 @@
         }
       }
     }
+    
   },
   "cli": {
     "analytics": false
   }
+  
+  
 }

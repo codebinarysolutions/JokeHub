@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { HttpClientModule } from '@angular/common/http';
 import { createCustomElement } from '@angular/elements';
+import { DragDropModule } from '@angular/cdk/drag-drop'; 
 
 
 
@@ -17,7 +18,8 @@ import { createCustomElement } from '@angular/elements';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
